@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="modal.js" defer></script>
+    <title>Main</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#">NFTX</a>
+        </div>
+
+        <ul class="nav-item-container">
+            <li class="nav-item active"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="#">Marketplace</a></li>
+            <li class="nav-item"><a href="collections.html">Collections</a></li>
+            <li class="nav-item"><a href="#">Fund</a></li>
+            <li class="nav-item"><a href="feedback.html">Feedbacks</a></li>
+        </ul>
+
+        <button class="nav-btn" id="nav-btn">Connect Wallet</button>
+    </nav>
+
+    <header>
+        <div class="header-container">
+            <div class="header-text">
+                <h1>Collect, trade, and discover</h1>
+                <h1>NFTs on the world's first</h1>
+                <h1 class="active">community-owned NFT</h1>
+                <h1>marketplace.</h1>
+                <p class="subtitle">Join the world's first community-owned NFT marketplace, where you can buy, sell and discover truly rare and authentic digital assets.</p>
+                
+                <div class="buttons-container">
+                    <button class="header-btn-blue">Start</button>
+                    <button class="header-btn-transparent">Explore</button>
+                </div>
+            </div>
+            <div class="header-circle-logo">
+                <span class="circle"></span>
+                <a class="logo">NFTX</a>
+            </div>
+        </div>
+    </header>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+                <h2>Connect Wallet</h2>
+            </div>
+            <p>Connect to a wallet to view your collection, make offers, and more.</p>
+
+            <hr>
+            
+            <div class="auth">
+                <input type="text", class="modal-input" placeholder="Metamask Wallet">
+                <button class="auth-btn">Connect Wallet</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

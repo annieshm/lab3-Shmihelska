@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="slider.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <script src="modal.js" defer></script>
+
+    <title>Main</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#">NFTX</a>
+        </div>
+
+        <ul class="nav-item-container">
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="#">Marketplace</a></li>
+            <li class="nav-item"><a href="collections.html">Collections</a></li>
+            <li class="nav-item"><a href="#">Fund</a></li>
+            <li class="nav-item active"><a href="feedback.html">Feedbacks</a></li>
+        </ul>
+
+        <button class="nav-btn" id="nav-btn">Connect Wallet</button>
+    </nav>
+
+    <header>
+        <div class="header-container">
+            <div class="header-text">
+                <h1 class="active">FeedBacks</h1>
+                <p class="subtitle">Trust & Secure</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="feedbacks-container">
+        <div class="feedback-card">
+            <div class="feedback-card-header">
+                <div class="feedback-card-header-left">
+                    <img src="img/5.jpeg" alt="">
+                    <div class="feedback-card-header-left-text">
+                        <h3>John Doe</h3>
+                        <p>CEO of Company</p>
+                    </div>
+                </div>
+            </div>
+            <div class="feedback-card-body">
+                <p>I am proud to work on this project</p>
+            </div>
+        </div>
+
+        <div class="feedback-card">
+            <div class="feedback-card-header">
+                <div class="feedback-card-header-left">
+                    <img src="img/10.jpeg" alt="">
+                    <div class="feedback-card-header-left-text">
+                        <h3>Elon Musk</h3>
+                        <p>Founder</p>
+                    </div>
+                </div>
+            </div>
+            <div class="feedback-card-body">
+                <p>What about tesla NFT collection?</p>
+            </div>
+        </div>
+
+        <div class="feedback-card">
+            <div class="feedback-card-header">
+                <div class="feedback-card-header-left">
+                    <img src="img/8.jpeg" alt="">
+                    <div class="feedback-card-header-left-text">
+                        <h3>Johhny Ive</h3>
+                        <p>Designery</p>
+                    </div>
+                </div>
+            </div>
+            <div class="feedback-card-body">
+                <p>I want some pizza</p>
+            </div>
+        </div>
+
+        <div class="feedback-card">
+            <div class="feedback-card-header">
+                <div class="feedback-card-header-left">
+                    <img src="img/4.jpeg" alt="">
+                    <div class="feedback-card-header-left-text">
+                        <h3>John Doe</h3>
+                        <p>CEO of Company</p>
+                    </div>
+                </div>
+            </div>
+            <div class="feedback-card-body">
+                <p>Lorem ipsum dolo</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+                <h2>Connect Wallet</h2>
+            </div>
+            <p>Connect to a wallet to view your collection, make offers, and more.</p>
+
+            <hr>
+            
+            <div class="auth">
+                <input type="text", class="modal-input" placeholder="Metamask Wallet">
+                <button class="auth-btn">Connect Wallet</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
